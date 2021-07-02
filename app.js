@@ -122,3 +122,7 @@ function activeList() {
 
 
 //local storage functionality will be added.
+
+function localStorage( ) {
+  //code goes here...
+}
