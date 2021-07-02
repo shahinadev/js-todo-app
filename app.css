@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.min {
+  width: 500px;
+  min-width: 450px;
+  max-width: 650px;
+  padding: 20px 15px;
+  border: 1px solid rgb(0, 174, 255);
+  box-shadow: 1px 3px 4px #eee;
+  margin: 20px 0px 0px 0px;
+  border-radius: 5px;
+}
+.add > #tdo {
+  width: 100%;
+  border: none;
+  padding: 13px 14px;
+  outline: none;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(0, 174, 255);
+  box-shadow: 0px 4px 4px 2px #eee;
+  background-color: transparent;
+  border-radius: 10px;
+  border-top: 1px solid #eee;
+}
+.add {
+  width: 350px;
+  margin: 0 auto;
+}
+.add > button#add_btn {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 20px 0px 0px 0px;
+  outline: none;
+  border: none;
+  background-color: rgb(0, 140, 255);
+  color: #fff;
+  border-radius: 10px 3px 10px;
+  font-size: 18px;
+  transition: box-shadow cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.todo_list {
+  width: 80%;
+  margin: 20px auto;
+}
+/* add box shadow using clicked */
+.addShadow {
+  box-shadow: 3px 3px 4px 1px rgb(0 174 255) !important;
+}
+
+::placeholder {
+  text-transform: capitalize;
+}
+hr.top {
+  display: block;
+  margin: 20px auto;
+  height: 2px;
+  background-color: rgb(0 174 255);
+  outline: none;
+  border: none;
+  border-radius: 20px 20px 10px 5px;
+}
+h1.todoHeading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: rgb(0, 119, 255);
+}
+hr.heading {
+  border: none;
+  outline: none;
+  width: 90px;
+  height: 2px;
+  background-color: rgb(0, 89, 255);
+  margin: 0px 0px 20px 0px;
+}
+li.todoItem {
+  display: block;
+  border: 1px solid rgb(0, 119, 255);
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+li.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+  box-sizing: border-box;
+}
+li.todoItem > div.subThing {
+  height: 100%;
+}
+li.todoItem > div.subThing > button {
+  height: 100%;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 140, 255);
+  color: #fff;
+  border-radius: 1px 2px 3px 5px;
+  font-size: 14px;
+}
+li.todoItem > span {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+#del {
+  margin-left: 5px;
+}
+.red {
+  border: 1px solid red;
+}
+#tdo:focus {
+  box-shadow: 3px 3px 4px 1px rgb(0 174 255) !important;
+}
+.border {
+  border: 2px solid red;
+}
+
+span.input {
+  display: inline-block;
+  border: 2px solid #008cff;
+  outline: none;
+  min-width: 200px;
+  height: 100%;
+  padding: 10px 5px;
+  caret-color: black;
+}
+
+.heading:first-child{
+  width: max(200px,350px);
+  margin: 0 auto 20px auto;
+  text-align:center;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1px 0px;
+  background: #008cff;
+  box-shadow: 0.1em 0.4rem 0px 0px #5746e6;
+}
