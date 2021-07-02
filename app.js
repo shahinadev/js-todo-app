@@ -123,6 +123,9 @@ function activeList() {
 
 //local storage functionality will be added.
 
-function localStorage( ) {
+function localStorage(value) {
   //code goes here...
-}
+  let val = value
+  console.log(val)
+  val.classList.add("ok")
+} 
