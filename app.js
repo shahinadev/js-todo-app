@@ -130,3 +130,5 @@ function localStorage(value) {
   val.classList.add("ok")
   let my = "my name"
 } 
+
+

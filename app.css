@@ -146,3 +146,9 @@ span.input {
   background: #008cff;
   box-shadow: 0.1em 0.4rem 0px 0px #5746e6;
 }
+li.todoItem  span{
+  display: block;
+  width: 200px;
+  overflow: auto;
+  height:max-content;
+}
